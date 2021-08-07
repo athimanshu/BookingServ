@@ -9,22 +9,24 @@
 Get All booking
 Url: http://localhost:8080/v1/bfs/booking/
 Method: GET
-Response: [
-    {
-        "id": 1,
-        "first_name": "Sherlock",
-        "last_name": "Holmes",
-        "date_of_birth": "20-07-1994",
-        "address": {
-            "line1": "221B",
-            "line2": "Baker Street",
-            "city": "London",
-            "state": "London",
-            "country": "England",
-            "zipcode": "201301"
-        }
-    }
-]
+Response: [{
+	"id": 1,
+	"first_name": "Himanshku",
+	"last_name": "Sicsngh",
+	"date_of_birth": "20-07-1994",
+	"checked_in": "20-07-1994",
+	"checked_out": "20-07-1994",
+	"total_price": 900.0,
+	"deposit": 700.0,
+	"address": {
+		"line1": "line1",
+		"line2": "line2",
+		"city": "",
+		"state": "Karnataka",
+		"country": "india",
+		"zipcode": "560037"
+	}
+}]
 ```
 
 ```
@@ -32,21 +34,22 @@ Create New Booking
 Url:http://localhost:8080/v1/bfs/booking
 Method: PUT
 Request: {
-	"first_name":"Sherlock",
-	"last_name": "Holmes",
-	"date_of_birth":"06-01-1854",
-    "deposit":100.00,
-    "checked_in":"05-09-2021",
-    "random" :"",
-	"address":{
-		"line1":"line1",
-		"line2":"line2",
-		"city":"Bangalore",
-		"state":"Karnataka",
-		"country":"india",
-		"zipcode":"560037"
-		}
+	"first_name": "Himanshku",
+	"last_name": "Sicsngh",
+	"date_of_birth": "20-19-1993",
+	"total_price": 900.00,
+	"deposit": 700.00,
+	"checked_in": "20-19-1993",
+	"checked_out": "20-19-1993",
+	"address": {
+		"line1": "line1",
+		"line2": "line2",
+		"state": "Karnataka",
+		"city": "",
+		"country": "india",
+		"zipcode": "560037"
 	}
+}
 
 ```
 
